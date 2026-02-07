@@ -5,7 +5,10 @@
         static void Main(string[] args)
         {
             Console.WriteLine("System Programming");
-            new ProcessDemo().Run();
+            // new ProcessDemo().Run();
+            new ThreadingDemo().Run();
+
+            Console.WriteLine("System Programming End");
         }
     }
 }
