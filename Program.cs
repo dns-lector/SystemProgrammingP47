@@ -6,7 +6,8 @@
         {
             Console.WriteLine("System Programming");
             // new ProcessDemo().Run();
-            new ThreadingDemo().Run();
+            // new ThreadingDemo().Run();
+            new ConcurenceDemo().Run();
 
             Console.WriteLine("System Programming End");
         }
