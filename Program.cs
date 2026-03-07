@@ -1,15 +1,21 @@
-﻿namespace SystemProgrammingP47
+﻿using System.Text;
+
+namespace SystemProgrammingP47
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+
             Console.WriteLine("System Programming");
             // new ProcessDemo().Run();
             // new ThreadingDemo().Run();
             // new ConcurenceDemo().Run();
             // new ThreadLimitation().Run();
-            new ThreadPooling().Run();
+            // new ThreadPooling().Run();
+            // new CancellingDemo().Run();
+            new CancellingPractice().Run();
 
             Console.WriteLine("System Programming End");
         }
