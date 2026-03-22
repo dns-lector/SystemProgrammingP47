@@ -17,7 +17,8 @@ namespace SystemProgrammingP47
             // new CancellingDemo().Run();
             // new CancellingPractice().Run();
             // new TaskDemo().Run();
-            new ChainingDemo().Run();
+            // new ChainingDemo().Run();
+            new Exam().Run();
 
 
             Console.WriteLine("System Programming End");
